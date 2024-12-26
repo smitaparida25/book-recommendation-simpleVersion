@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+form input{
+    width: 29pc;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #5cb6cc;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .book-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fafafa;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .book-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .book-card p {
+    color: #666;
+  }
+  
+  .book-card button {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.8rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.book-card button:hover {
+    background-color: #218838;
+}
+  
